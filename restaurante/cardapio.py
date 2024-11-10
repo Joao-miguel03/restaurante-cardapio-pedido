@@ -15,7 +15,7 @@ class Cardapio:
             try:
                 print(f"- Nome: {i.get_nome()} (serve {i.get_quantasPessoasServe()} pessoas) -")
             except: 
-                print(f"- Nome: {i.get_nome} -")
+                print(f"- Nome: {i.get_nome()} -")
             
             print(f"- Preço: {i.get_preco()} -")
             if i.get_disponivel():
